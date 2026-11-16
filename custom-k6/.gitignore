@@ -1,0 +1,17 @@
+# Build output
+/dist/
+/k6
+/k6.exe
+*.zip
+*.tar.gz
+
+# Local Kafka certificates and secrets
+/certs/*
+!/certs/.gitkeep
+*.key
+*.pem
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example

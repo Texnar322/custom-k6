@@ -1,0 +1,9 @@
+# Go modules embedded into the custom k6 binary.
+# Versions are pinned in config/versions.env.
+github.com/grafana/xk6-kafka
+github.com/grafana/xk6-sql
+github.com/grafana/xk6-sql-driver-mysql
+github.com/grafana/xk6-sql-driver-postgres
+github.com/grafana/xk6-redis
+github.com/grafana/xk6-mqtt
+github.com/grafana/xk6-faker
